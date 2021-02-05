@@ -1,0 +1,2 @@
+* python-gql-gen
+这是一个nodejs的gql-generator的python版本.
