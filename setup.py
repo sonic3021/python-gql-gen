@@ -5,13 +5,16 @@
 
 from setuptools import setup, find_packages
 
-with open('README.rst') as readme_file:
+with open('README.org') as readme_file:
     readme = readme_file.read()
 
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=6.0', ]
+requirements = ['Click>=6.0',
+                'graphql-core<3',
+                'graphqlclient>=0.2.4'
+                ]
 
 setup_requirements = ['pytest-runner', ]
 
